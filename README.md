@@ -15,7 +15,7 @@ Free community mods for **Fender Studio Pro 8** on Windows: skins, a calmer Star
 
 Get the latest zip from **[Releases](../../releases/latest)**.
 
-**New in 1.2.1:** a cleaner, calmer Sound search look. **1.2.0** brought a much faster Sound search that also plays MIDI files on the selected track, and a Quick start card on the Home page.
+**New in 1.3.0:** Play with song: loops and MIDI files you preview in Sound search start and stop with Studio Pro's transport and stay on the beat. **1.2.1** brought a cleaner, calmer Sound search look, and **1.2.0** a much faster Sound search that also plays MIDI files on the selected track, plus a Quick start card on the Home page.
 
 ## See it
 
@@ -47,7 +47,7 @@ You can install any mix of these. If a package needs another one, the installer 
 | 03 | Name and icon | "Fender Studio Pro X" in the title bar and the X app icon. |
 | 04 | Track List | A redesigned Track List with saved views, search and quick show/hide. |
 | 05 | Plug-in browser | Instruments and Effects as a modern panel: filters, favourites, folders and search. |
-| 06 | Sound search | Find samples by name, type, key and tempo in Browser > Files, matched to your song. MIDI files play on the selected instrument track too. |
+| 06 | Sound search | Find samples by name, type, key and tempo in Browser > Files, matched to your song. MIDI files play on the selected instrument track too, and previews can play in time with your song. |
 | 07 | YouTube panel | Search YouTube audio in Browser > Cloud, preview it and bring it into your song (needs yt-dlp and ffmpeg). |
 | 08 | Look extras | Smooth motion, glass pop-up menus, rounded ruler markers and loop. |
 | 09 | Pitch curves | Draw and edit per-note pitch curves in the piano roll. |
