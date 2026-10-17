@@ -2,16 +2,16 @@
 
 > **Heads up:** these mods are completely vibe-coded. I'm not a programmer. I built all of this with AI and I honestly don't know what I'm doing, so expect bugs and things that break. Back up your songs first, use it at your own risk, and if anything acts up, run the uninstaller to go back to stock.
 
-<!-- DRAFT, version 1.3.0 (10 packages, 2026-10-17). -->
+<!-- DRAFT, version 1.4.0 (10 packages, 2026-10-17). -->
 
-Version 1.3.0 comes in **10 packages**. Take only the ones you want; the installer adds anything a package needs.
+Version 1.4.0 comes in **10 packages**. Take only the ones you want; the installer adds anything a package needs.
 
 ## What you need
 
 - Windows 10 or 11 (Windows 11 for the glass menus).
 - Your own licensed **Fender Studio Pro 8**. Tested on 8.1.2 (build 8.1.2.113407).
 - For the skins: **Python 3.11 or newer** from python.org, then once: `py -m pip install numpy pillow fonttools brotli`, and **ImageMagick 7** (`winget install ImageMagick.ImageMagick`). The installer checks both and tells you what is missing.
-- Optional, only for the packages that use them: yt-dlp and ffmpeg (YouTube panel), an NVIDIA graphics card (AI Lab, Better stems), an MCP client or your own AI key (chat assistant).
+- Optional, only for the packages that use them: yt-dlp, ffmpeg and a JavaScript runtime such as deno (YouTube panel), an NVIDIA graphics card (AI Lab, Better stems), an MCP client or your own AI key (chat assistant).
 
 ## The 10 packages
 
@@ -23,7 +23,7 @@ Version 1.3.0 comes in **10 packages**. Take only the ones you want; the install
 | 04 | **Track List** | A redesigned Track List with saved views, search and quick show/hide. | none | yes |
 | 05 | **Plug-in browser** | Instruments and Effects as a modern panel: filters, favourites, folders and search. | none | yes |
 | 06 | **Sound search** | Find samples by name, type, key and tempo in Browser > Files, play MIDI files on the selected track, and preview loops in time with your song. | none | yes |
-| 07 | **YouTube panel** | Search YouTube audio in Browser > Cloud, preview it and bring it into your song (needs yt-dlp and ffmpeg). | none | no |
+| 07 | **YouTube panel** | Search YouTube audio in Browser > Cloud, preview it (with a volume slider) and bring it into your song; optional account tabs for your own YouTube lists (needs yt-dlp and ffmpeg). | none | no |
 | 08 | **Look extras** | Smooth motion, glass pop-up menus, rounded ruler markers and loop. | Smooth motion (on), Glass pop-ups (on), Ruler markers and loop (on) | yes |
 | 09 | **Pitch curves** | Draw and edit per-note pitch curves in the piano roll. | none | yes |
 | 10 | **AI tools** | A chat assistant that can drive Studio Pro (any MCP client too), the AI Lab tab, and optional better stems. | Chat assistant & bridge (on), AI Lab (on), Better stems (off) | no |
@@ -76,6 +76,17 @@ The pack adds a matching **Sound Search** MIDI output for this (no driver). If a
 
 The Home page has a Quick start card (right column, under News) with your first four templates. Click one and a new song made from it opens at once. Fender's built-in templates and the **All** button open the New Song window. Each one-click song is saved in your Songs folder as *Untitled*.
 
+## YouTube account tabs (optional)
+
+The YouTube panel (package 07, not ticked at first) can show your own YouTube lists: Home, Subs, Liked, Later and History. Set it up once:
+
+1. In Browser > Cloud open the **Account** tab and press **Connect**. The panel tries the browsers on your PC that you are signed in to YouTube with and uses the first one that works.
+2. If Connect says "locked", close that browser completely (check the tray too) and press Connect again.
+3. Chrome and Brave protect their sign-in, so Connect cannot read them. Use a cookies file instead: add the free extension **Get cookies.txt LOCALLY** to the browser you are signed in with, open youtube.com, press the extension and **Export** (youtube.com only), and save the file. In the panel press **Use a cookies file** and pick it. Keep that file private, and delete it when you are done.
+4. Home, Subs, Liked, Later and History now show your own lists. Preview, download and insert work like search results. **Sign out** in the panel deletes the saved sign-in.
+
+Your sign-in never leaves your PC: it is stored encrypted for your Windows user in `%LOCALAPPDATA%\StudioMods\studio-pro-x\UserData\YouTube\account`, it is sent only to YouTube, and it is not part of this pack. Removing the YouTube panel package, or running the top-level Uninstall.bat, deletes it too. YouTube can limit or block accounts that tools use heavily, so use the account tabs lightly (a separate account is safest). The panel also needs yt-dlp, ffmpeg and a JavaScript runtime such as deno (`winget install yt-dlp.yt-dlp Gyan.FFmpeg DenoLand.Deno`). Previews now try several YouTube player types, so a preview can take a few seconds; live streams do not preview.
+
 ## AI tools
 
 - **AI Lab** always comes with the **Chat assistant & bridge**, because its "Add to song" button uses it.
@@ -96,6 +107,7 @@ The Home page has a Quick start card (right column, under News) with your first 
 - **After a Studio Pro update:** run Install.bat again so the skins are rebuilt from the new version. Anything that needs an exact build switches itself off until it is updated (the Sound Search MIDI input is the exception: it patches nothing by address).
 - **A MIDI file is silent:** check the one-time setup above. The usual cause is a track whose input is one single device instead of All Inputs, or no instrument track selected.
 - **Play with song is not quite in time:** do steps 5 and 6 above (Send To: Sound Search, Send MIDI Clock, Use MIDI Clock Start), then use the small ms box next to the button for the last bit.
+- **YouTube Connect says "locked" or "can't be read":** close that browser completely and try again. Chrome and Brave cannot be read at all, so use a cookies file (see "YouTube account tabs"). A YouTube preview that never starts is usually a live stream, which cannot preview.
 - **Skin missing on the Skins page:** it appears after its first successful build. Close Studio Pro and run Install.bat again.
 - **Glass tint or lighting did not change:** both are applied when Studio Pro starts. Use **Restart now** on the Skins page, or close and start Studio Pro.
 - **The skin build will not start:** close Studio Pro first, and check Python and ImageMagick.

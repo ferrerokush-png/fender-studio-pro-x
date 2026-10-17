@@ -2,13 +2,15 @@
 
 > **Heads up:** these mods are completely vibe-coded. I'm not a programmer. I built all of this with AI and I honestly don't know what I'm doing, so expect bugs and things that break. Back up your songs first, use it at your own risk, and if anything acts up, run the uninstaller to go back to stock.
 
-<!-- DRAFT. Nothing here is published. The user decides what is shared and where. Matches deck, version 1.3.0 (10 packages, 2026-10-17). -->
+<!-- DRAFT. Nothing here is published. The user decides what is shared and where. Matches deck, version 1.4.0 (10 packages, 2026-10-17). -->
 
 I have been shaping Studio Pro 8 into the DAW I always wanted to work in, and I am sharing the result for free. **Fender Studio Pro X** is a set of skins and mods that sit on top of **your own, licensed** Studio Pro 8 and give you your own version of it.
 
 It is free, it installs on the copy you already own, it never touches licensing, sign-in or activation, and one click takes you back to plain Studio Pro. No Fender files are shipped: the skins are built on your PC from your own copy of the program.
 
-**Version 1.3.0 comes in 10 packages.** Tick the ones you want, with a few switches inside each. The installer adds what a package needs and shows you a summary before it changes anything.
+**Version 1.4.0 comes in 10 packages.** Tick the ones you want, with a few switches inside each. The installer adds what a package needs and shows you a summary before it changes anything.
+
+**New in 1.4.0:** the YouTube panel works again (YouTube had started refusing most preview links; the panel now tries other player types), has a volume slider for previews, and has optional account tabs for your own Home, Subs, Liked, Later and History lists. Your sign-in stays on your PC, stored encrypted, and is never part of the pack; YouTube can limit accounts that tools use heavily, so use it lightly.
 
 **New in 1.3.0:** Play with song. Loops and MIDI files you preview in Sound search start and stop with Studio Pro's transport and stay on the beat, previews start about 0.04 seconds after a click, and stretched loops you drag in land on the grid (one extra one-time setup for the tightest timing, in its README).
 
@@ -36,7 +38,7 @@ Huge thanks to the Studio One team at Fender. This only exists because the progr
 
 **6. Sound search.** Find samples by name, type, key and tempo in the Files tab, preview in time with the song, drag it in. MIDI files play too, on the track you have selected. *Brings Skins with it.*
 
-**7. YouTube panel** (off at first). Search or paste a link in the Cloud tab, preview, and bring the audio into the song's folder. Uses yt-dlp and ffmpeg, which you install yourself. Only use audio you have the right to use. *Brings Skins with it.*
+**7. YouTube panel** (off at first). Search or paste a link in the Cloud tab, preview (with a volume slider), and bring the audio into the song's folder; optional account tabs show your own YouTube lists. Uses yt-dlp, ffmpeg and a JavaScript runtime such as deno, which you install yourself. Only use audio you have the right to use. *Brings Skins with it.*
 
 **8. Look extras.** Smooth motion (short fades, no bounce), glass pop-up menus, rounded ruler markers and loop. *Switches: Smooth motion, Glass pop-ups, Ruler markers and loop.*
 
