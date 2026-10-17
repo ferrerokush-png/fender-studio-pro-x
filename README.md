@@ -17,6 +17,7 @@ Get the latest zip from **[Releases](../../releases/latest)**.
 
 ## See it
 
+- **[Open the presentation in your browser](https://ferrerokush-png.github.io/fender-studio-pro-x/)**: the full feature tour as a web page.
 - **[Presentation (PDF)](presentation/Fender%20Studio%20Pro%20X%20-%20Presentation.pdf)**: every mod with pictures.
 - **[Feature sheet (PDF)](presentation/Fender%20Studio%20Pro%20X%20-%20Feature%20Sheet.pdf)**: everything on one page.
 - **[Install guide](presentation/install-guide.md)**: step by step, from unzipping to going back to stock.
