@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Share an idea
+    url: https://github.com/ferrerokush-png/fender-studio-pro-x/discussions/new?category=ideas
+    about: Ideas and feature requests go in Discussions, in the Ideas category.
+  - name: Ask a question
+    url: https://github.com/ferrerokush-png/fender-studio-pro-x/discussions/new?category=q-a
+    about: Questions and "how do I" go in Discussions, in the Q&A category.

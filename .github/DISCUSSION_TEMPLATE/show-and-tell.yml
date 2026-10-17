@@ -1,0 +1,35 @@
+title: "Show and tell: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Show us what you made or changed. Screenshots are very welcome: you can paste or drag them into the boxes below.
+
+        Please do not post Fender's files, skin files, fonts, images or extracted program code. Your own work only.
+  - type: textarea
+    id: what
+    attributes:
+      label: What did you make or change?
+    validations:
+      required: true
+  - type: input
+    id: tested-on
+    attributes:
+      label: Studio Pro build you tested on
+      placeholder: "8.1.2.113407"
+    validations:
+      required: false
+  - type: textarea
+    id: how-to-try
+    attributes:
+      label: How can someone try it?
+      description: A link, or the steps. Say what licence it has and which models or tools it uses, if any.
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything that does not work yet?
+      description: Honest limits help others a lot.
+    validations:
+      required: false

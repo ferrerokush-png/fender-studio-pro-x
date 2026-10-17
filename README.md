@@ -1,5 +1,7 @@
 # Fender Studio Pro X
 
+![Fender Studio Pro X: the Liquid Glass look on the song page, with the redesigned Track List and mixer](hero.jpg)
+
 Free community mods for **Fender Studio Pro 8** on Windows: skins, a calmer Start page, a redesigned Track List and plug-in browser, sample search, AI tools and more. Take only the parts you want, and go back to plain Studio Pro with one click.
 
 > Heads up: these mods are completely vibe-coded. I'm not a programmer. I built all of this with AI and I honestly don't know what I'm doing, so expect bugs and things that break. Back up your songs first, use it at your own risk, and if anything acts up, run the uninstaller to go back to stock.
@@ -12,6 +14,12 @@ Free community mods for **Fender Studio Pro 8** on Windows: skins, a calmer Star
 ## Download
 
 Get the latest zip from **[Releases](../../releases/latest)**.
+
+## See it
+
+- **[Presentation (PDF)](presentation/Fender%20Studio%20Pro%20X%20-%20Presentation.pdf)**: every mod with pictures.
+- **[Feature sheet (PDF)](presentation/Fender%20Studio%20Pro%20X%20-%20Feature%20Sheet.pdf)**: everything on one page.
+- **[Install guide](presentation/install-guide.md)**: step by step, from unzipping to going back to stock.
 
 ## The 10 packages
 

@@ -1,0 +1,102 @@
+name: Bug report
+description: Something broke or acts strangely. Ideas and questions go in Discussions instead.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. A good report helps a lot, because I'm not a programmer and I build this with AI.
+
+        **Ideas and questions** go in the **Discussions** tab, not here. This form is only for things that break or act wrongly.
+
+        Quick check first: close Studio Pro, then start it again while **holding Shift**. That starts plain Studio Pro. If the problem is gone, one of the mods is the cause.
+  - type: input
+    id: studio-pro-build
+    attributes:
+      label: Studio Pro build
+      description: In Studio Pro, open Help > About and copy the version. The tested build is 8.1.2.113407.
+      placeholder: "8.1.2.113407"
+    validations:
+      required: true
+  - type: input
+    id: pack-version
+    attributes:
+      label: Fender Studio Pro X version
+      description: Open VERSION.txt in the download folder and copy the version line. Leave blank if you cannot find it.
+      placeholder: "1.1.0"
+    validations:
+      required: false
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: "Windows 11"
+    validations:
+      required: false
+  - type: checkboxes
+    id: packages
+    attributes:
+      label: Which package(s) do you have installed?
+      description: Tick everything that is installed. If you are not sure which one is to blame, tick what you installed and say so below.
+      options:
+        - label: 01 Skins
+        - label: 02 Home page
+        - label: 03 Name and icon
+        - label: 04 Track List
+        - label: 05 Plug-in browser
+        - label: 06 Sound search
+        - label: 07 YouTube panel
+        - label: 08 Look extras
+        - label: 09 Pitch curves
+        - label: 10 AI tools
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Say what you saw. A screenshot helps: you can paste or drag it into this box.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: false
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to make it happen again
+      placeholder: |
+        1. Open ...
+        2. Click ...
+        3. See ...
+    validations:
+      required: true
+  - type: dropdown
+    id: shift-test
+    attributes:
+      label: Does it still happen when you hold Shift while Studio Pro starts?
+      options:
+        - I have not tried
+        - It goes away with Shift (so a mod is involved)
+        - It still happens with Shift (so it may be Studio Pro itself)
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log file
+      description: "Paste %LOCALAPPDATA%\\StudioMods\\studio-pro-x\\sandbox.log into the address bar of a File Explorer window, open the file, and paste the last 30 or so lines here."
+      render: text
+    validations:
+      required: false
+  - type: checkboxes
+    id: backup
+    attributes:
+      label: Before you send
+      options:
+        - label: I backed up my songs.
+          required: true
+        - label: I looked through the existing issues and did not find this one.
+          required: false

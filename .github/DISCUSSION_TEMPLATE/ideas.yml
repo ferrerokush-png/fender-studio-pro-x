@@ -1,0 +1,48 @@
+title: "Idea: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing an idea. One idea per post works best.
+
+        Before you post, have a quick look through the Ideas list. If something similar is already there, add your vote and a comment to that post instead.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What would you like Studio Pro (or this project) to do? Plain words are fine.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does it solve?
+      description: What is annoying, slow or missing today?
+    validations:
+      required: true
+  - type: textarea
+    id: usage
+    attributes:
+      label: How would you use it?
+      description: Walk through a real moment, for example "when I record vocals I would..."
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where does it belong?
+      options:
+        - A brand-new thing
+        - Skins
+        - Home page
+        - Name and icon
+        - Track List
+        - Plug-in browser
+        - Sound search
+        - YouTube panel
+        - Look extras
+        - Pitch curves
+        - AI tools
+        - Not sure
+    validations:
+      required: false
