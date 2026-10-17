@@ -15,7 +15,7 @@ Free community mods for **Fender Studio Pro 8** on Windows: skins, a calmer Star
 
 Get the latest zip from **[Releases](../../releases/latest)**.
 
-**New in 1.4.0:** YouTube previews work again, a preview volume slider, and an optional Account tab with your own YouTube lists. **1.3.0** brought Play with song: Play with song: loops and MIDI files you preview in Sound search start and stop with Studio Pro's transport and stay on the beat. **1.2.1** brought a cleaner, calmer Sound search look, and **1.2.0** a much faster Sound search that also plays MIDI files on the selected track, plus a Quick start card on the Home page.
+**New in 1.4.0:** YouTube previews work again, a preview volume slider, and an optional Account tab with your own YouTube lists. **1.3.0** brought Play with song: loops and MIDI files you preview in Sound search start and stop with Studio Pro's transport and stay on the beat. **1.2.1** brought a cleaner, calmer Sound search look, and **1.2.0** a much faster Sound search that also plays MIDI files on the selected track, plus a Quick start card on the Home page.
 
 ## See it
 
