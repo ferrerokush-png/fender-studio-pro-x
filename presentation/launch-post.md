@@ -14,7 +14,7 @@ It is free, it installs on the copy you already own, it never touches licensing,
 
 Huge thanks to the Studio One team at Fender. This only exists because the program underneath is so good to work in.
 
-![Fender Studio Pro X with the Liquid Glass skin](hero.jpg)
+![Fender Studio Pro X with the Liquid Glass skin](deck/assets/hero.jpg)
 
 *Screenshots were taken before the final 1.1.0 polish, so a few details look slightly different.*
 
@@ -63,6 +63,6 @@ Underneath it all sits **Core**, always installed: the mod loader and a crash gu
 ## Get it
 
 Install steps: see the [install guide](install-guide.md). Questions, bugs and your own themes: see [community](community.md).
-<!-- PENDING: download link, only after the user's publish decision. -->
+Download (free): **https://github.com/ferrerokush-png/fender-studio-pro-x** (Releases has the latest zip). Take the tour: https://ferrerokush-png.github.io/fender-studio-pro-x/
 
 *Made by Roche. Free and not for sale. Studio One and Studio Pro are trademarks of their owners.*
