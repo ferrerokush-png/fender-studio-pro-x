@@ -15,11 +15,13 @@ Free community mods for **Fender Studio Pro 8** on Windows: skins, a calmer Star
 
 Get the latest zip from **[Releases](../../releases/latest)**.
 
+**New in 1.2.0:** a much faster Sound search that also plays MIDI files on the selected track, and a Quick start card on the Home page.
+
 ## See it
 
 - **[Open the presentation in your browser](https://ferrerokush-png.github.io/fender-studio-pro-x/)**: the full feature tour as a web page.
 - **[Presentation (PDF)](presentation/Fender%20Studio%20Pro%20X%20-%20Presentation.pdf)**: every mod with pictures.
-- **[Feature sheet (PDF)](presentation/Fender%20Studio%20Pro%20X%20-%20Feature%20Sheet.pdf)**: everything on one page.
+- **[Feature sheet](https://ferrerokush-png.github.io/fender-studio-pro-x/presentation/feature-sheet.html)**: everything on one page ([PDF](presentation/Fender%20Studio%20Pro%20X%20-%20Feature%20Sheet.pdf)).
 - **[Install guide](presentation/install-guide.md)**: step by step, from unzipping to going back to stock.
 
 ## Screenshots
@@ -41,11 +43,11 @@ You can install any mix of these. If a package needs another one, the installer 
 | # | Package | What it does |
 |---|---|---|
 | 01 | Skins | Liquid Glass and Graphite, built on your PC from your own Studio Pro, with a Skins page in Options and live colour changes. |
-| 02 | Home page | A calm Start page: your sessions, templates, music news, your artist card and your audio device. |
+| 02 | Home page | A calm Start page: your sessions, a Quick start card with your templates (one click starts a song), music news, your artist card and your audio device. |
 | 03 | Name and icon | "Fender Studio Pro X" in the title bar and the X app icon. |
 | 04 | Track List | A redesigned Track List with saved views, search and quick show/hide. |
 | 05 | Plug-in browser | Instruments and Effects as a modern panel: filters, favourites, folders and search. |
-| 06 | Sound search | Find samples by name, type, key and tempo in Browser > Files. |
+| 06 | Sound search | Find samples by name, type, key and tempo in Browser > Files, matched to your song. MIDI files play on the selected instrument track too. |
 | 07 | YouTube panel | Search YouTube audio in Browser > Cloud, preview it and bring it into your song (needs yt-dlp and ffmpeg). |
 | 08 | Look extras | Smooth motion, glass pop-up menus, rounded ruler markers and loop. |
 | 09 | Pitch curves | Draw and edit per-note pitch curves in the piano roll. |

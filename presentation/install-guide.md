@@ -2,9 +2,9 @@
 
 > **Heads up:** these mods are completely vibe-coded. I'm not a programmer. I built all of this with AI and I honestly don't know what I'm doing, so expect bugs and things that break. Back up your songs first, use it at your own risk, and if anything acts up, run the uninstaller to go back to stock.
 
-<!-- DRAFT, version 1.1.0 (10 packages, 2026-10-16). -->
+<!-- DRAFT, version 1.2.0 (10 packages, 2026-10-17). -->
 
-Version 1.1.0 comes in **10 packages**. Take only the ones you want; the installer adds anything a package needs.
+Version 1.2.0 comes in **10 packages**. Take only the ones you want; the installer adds anything a package needs.
 
 ## What you need
 
@@ -18,11 +18,11 @@ Version 1.1.0 comes in **10 packages**. Take only the ones you want; the install
 | # | Package | What it does | Switches inside (default) | Ticked at first |
 |---|---|---|---|---|
 | 01 | **Skins** | Liquid Glass and Graphite, built on your PC from your own Studio Pro, with a Skins page in Options and live colour changes. | Skins page (on), Live colours (on) | yes |
-| 02 | **Home page** | A calm Start page: your sessions, templates, music news, your artist card and your audio device. | Session library (on), News (on), Spotify panel (off) | yes |
+| 02 | **Home page** | A calm Start page: your sessions, a Quick start card with your templates, music news, your artist card and your audio device. | Session library (on), News (on), Spotify panel (off) | yes |
 | 03 | **Name and icon** | "Fender Studio Pro X" in the title bar and the X app icon. | Hide About and Check for Updates (off) | yes |
 | 04 | **Track List** | A redesigned Track List with saved views, search and quick show/hide. | none | yes |
 | 05 | **Plug-in browser** | Instruments and Effects as a modern panel: filters, favourites, folders and search. | none | yes |
-| 06 | **Sound search** | Find samples by name, type, key and tempo in Browser > Files. | none | yes |
+| 06 | **Sound search** | Find samples by name, type, key and tempo in Browser > Files, and play MIDI files on the selected track. | none | yes |
 | 07 | **YouTube panel** | Search YouTube audio in Browser > Cloud, preview it and bring it into your song (needs yt-dlp and ffmpeg). | none | no |
 | 08 | **Look extras** | Smooth motion, glass pop-up menus, rounded ruler markers and loop. | Smooth motion (on), Glass pop-ups (on), Ruler markers and loop (on) | yes |
 | 09 | **Pitch curves** | Draw and edit per-note pitch curves in the piano roll. | none | yes |
@@ -52,6 +52,21 @@ Double-click **Install.bat**. A window lists the packages, with the switches of 
 
 The skins are built on your PC from **your own** Studio Pro. That takes about 2 to 4 minutes and needs Python and ImageMagick (see above). Start Studio Pro, open **Options > Skins**, pick a skin and an accent, press **Restart now**. The same page has the **Glass tint** slider and the **Lighting** row: One light (a soft light in your accent colour, the default) or Cool zones (a quiet cool light in each panel). Tint and lighting show at the next start.
 
+## MIDI files in Sound search (one-time setup)
+
+Sound search can play MIDI files (.mid) on one of your instrument tracks, in your song's key and tempo. The pack adds a MIDI input called **Sound Search** inside Studio Pro for this: there is no driver to install and nothing is added to your song. Studio Pro has to be told about it once:
+
+1. In Studio Pro open **Options > External Devices**, press **Add**, then **New Keyboard**.
+2. Set **Receive From** to **Sound Search**. Do not make it the Default Instrument Input: your own keyboard stays your default.
+3. In the **Track** menu, switch on **Instrument Input follows Selection**.
+4. Select an instrument track and set that track's input to **All Inputs**.
+
+Now click a .mid file in Browser > Files. It plays on the selected track and loops, drums keep their pitch, and it pauses by itself while Studio Pro records. If you hear nothing, the track's input is probably one single device instead of All Inputs, or no instrument track is selected (the player says so under the file name).
+
+## Home page: Quick start
+
+The Home page has a Quick start card (right column, under News) with your first four templates. Click one and a new song made from it opens at once. Fender's built-in templates and the **All** button open the New Song window. Each one-click song is saved in your Songs folder as *Untitled*.
+
 ## AI tools
 
 - **AI Lab** always comes with the **Chat assistant & bridge**, because its "Add to song" button uses it.
@@ -69,7 +84,8 @@ The skins are built on your PC from **your own** Studio Pro. That takes about 2 
 ## If something goes wrong
 
 - **Something looks or behaves oddly:** hold Shift at start. If that fixes it, a package or skin is the cause; untick packages one at a time with Install.bat.
-- **After a Studio Pro update:** run Install.bat again so the skins are rebuilt from the new version. Anything that needs an exact build switches itself off until it is updated.
+- **After a Studio Pro update:** run Install.bat again so the skins are rebuilt from the new version. Anything that needs an exact build switches itself off until it is updated (the Sound Search MIDI input is the exception: it patches nothing by address).
+- **A MIDI file is silent:** check the one-time setup above. The usual cause is a track whose input is one single device instead of All Inputs, or no instrument track selected.
 - **Skin missing on the Skins page:** it appears after its first successful build. Close Studio Pro and run Install.bat again.
 - **Glass tint or lighting did not change:** both are applied when Studio Pro starts. Use **Restart now** on the Skins page, or close and start Studio Pro.
 - **The skin build will not start:** close Studio Pro first, and check Python and ImageMagick.

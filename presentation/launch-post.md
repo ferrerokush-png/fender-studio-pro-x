@@ -2,13 +2,15 @@
 
 > **Heads up:** these mods are completely vibe-coded. I'm not a programmer. I built all of this with AI and I honestly don't know what I'm doing, so expect bugs and things that break. Back up your songs first, use it at your own risk, and if anything acts up, run the uninstaller to go back to stock.
 
-<!-- DRAFT. Nothing here is published. The user decides what is shared and where. Matches deck, version 1.1.0 (10 packages, 2026-10-16). -->
+<!-- DRAFT. Nothing here is published. The user decides what is shared and where. Matches deck, version 1.2.0 (10 packages, 2026-10-17). -->
 
 I have been shaping Studio Pro 8 into the DAW I always wanted to work in, and I am sharing the result for free. **Fender Studio Pro X** is a set of skins and mods that sit on top of **your own, licensed** Studio Pro 8 and give you your own version of it.
 
 It is free, it installs on the copy you already own, it never touches licensing, sign-in or activation, and one click takes you back to plain Studio Pro. No Fender files are shipped: the skins are built on your PC from your own copy of the program.
 
-**Version 1.1.0 comes in 10 packages.** Tick the ones you want, with a few switches inside each. The installer adds what a package needs and shows you a summary before it changes anything.
+**Version 1.2.0 comes in 10 packages.** Tick the ones you want, with a few switches inside each. The installer adds what a package needs and shows you a summary before it changes anything.
+
+**New in 1.2.0:** Sound search is much faster and now plays MIDI files on the instrument track you have selected (a one-time setup, written out in its README), and the Home page has a Quick start card: one click starts a new song from your own template.
 
 Huge thanks to the Studio One team at Fender. This only exists because the program underneath is so good to work in.
 
@@ -20,7 +22,7 @@ Huge thanks to the Studio One team at Fender. This only exists because the progr
 
 **1. Skins.** Liquid Glass and Graphite, built on your PC from your own Studio Pro. Liquid Glass is a dark, frosted look for the whole window with 8 accent colours and 4 presets (32 looks). One soft light in your accent colour comes from the top left, the Browser has its own glow from its bottom edge, and a Glass tint slider goes from no tint to strong glass. Prefer something cooler? The Lighting row offers Cool zones, a quiet cool light in each panel (the newest part, so the least tested). Smooth backgrounds, no film grain. The accent marks selection and sliders only; record, mute, solo and meters keep their usual colours. Track headers keep Studio Pro's own shapes, meter and colour effect, the transport stays clean whatever you show or hide, scrollbar handles stay visible at every zoom, and bypassed plug-ins are clearly dimmed in the mixer. A Skins page in Options lets you pick, with live colour changes. Want your own? One short text file: pick a base, list only what you want different, run one command. No coding. *Switches: Skins page, Live colours.*
 
-**2. Home page.** A calm Start page: your sessions, templates, music news, your artist card and your audio device. Rename sessions right there too. *Switches: Session library, News, Spotify panel (off at first). Brings Skins with it.*
+**2. Home page.** A calm Start page: your sessions, a Quick start card (one click starts a song from your template), music news, your artist card and your audio device. Rename sessions right there too. *Switches: Session library, News, Spotify panel (off at first). Brings Skins with it.*
 
 **3. Name and icon.** "Fender Studio Pro X" in the title bar and the X app icon. *Switch: Hide About and Check for Updates (off at first).*
 
@@ -28,7 +30,7 @@ Huge thanks to the Studio One team at Fender. This only exists because the progr
 
 **5. Plug-in browser.** Instruments and Effects as a modern panel: filters, favourites, your own folders, search and a type icon on every row. *Brings Skins with it.*
 
-**6. Sound search.** Find samples by name, type, key and tempo in the Files tab, preview in time with the song, drag it in. *Brings Skins with it.*
+**6. Sound search.** Find samples by name, type, key and tempo in the Files tab, preview in time with the song, drag it in. MIDI files play too, on the track you have selected. *Brings Skins with it.*
 
 **7. YouTube panel** (off at first). Search or paste a link in the Cloud tab, preview, and bring the audio into the song's folder. Uses yt-dlp and ffmpeg, which you install yourself. Only use audio you have the right to use. *Brings Skins with it.*
 
