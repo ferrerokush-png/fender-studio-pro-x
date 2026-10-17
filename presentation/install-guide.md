@@ -2,9 +2,9 @@
 
 > **Heads up:** these mods are completely vibe-coded. I'm not a programmer. I built all of this with AI and I honestly don't know what I'm doing, so expect bugs and things that break. Back up your songs first, use it at your own risk, and if anything acts up, run the uninstaller to go back to stock.
 
-<!-- DRAFT, version 1.2.0 (10 packages, 2026-10-17). -->
+<!-- DRAFT, version 1.2.1 (10 packages, 2026-10-17). -->
 
-Version 1.2.0 comes in **10 packages**. Take only the ones you want; the installer adds anything a package needs.
+Version 1.2.1 comes in **10 packages**. Take only the ones you want; the installer adds anything a package needs.
 
 ## What you need
 

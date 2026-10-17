@@ -15,7 +15,7 @@ Free community mods for **Fender Studio Pro 8** on Windows: skins, a calmer Star
 
 Get the latest zip from **[Releases](../../releases/latest)**.
 
-**New in 1.2.0:** a much faster Sound search that also plays MIDI files on the selected track, and a Quick start card on the Home page.
+**New in 1.2.1:** a cleaner, calmer Sound search look. **1.2.0** brought a much faster Sound search that also plays MIDI files on the selected track, and a Quick start card on the Home page.
 
 ## See it
 

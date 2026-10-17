@@ -2,13 +2,15 @@
 
 > **Heads up:** these mods are completely vibe-coded. I'm not a programmer. I built all of this with AI and I honestly don't know what I'm doing, so expect bugs and things that break. Back up your songs first, use it at your own risk, and if anything acts up, run the uninstaller to go back to stock.
 
-<!-- DRAFT. Nothing here is published. The user decides what is shared and where. Matches deck, version 1.2.0 (10 packages, 2026-10-17). -->
+<!-- DRAFT. Nothing here is published. The user decides what is shared and where. Matches deck, version 1.2.1 (10 packages, 2026-10-17). -->
 
 I have been shaping Studio Pro 8 into the DAW I always wanted to work in, and I am sharing the result for free. **Fender Studio Pro X** is a set of skins and mods that sit on top of **your own, licensed** Studio Pro 8 and give you your own version of it.
 
 It is free, it installs on the copy you already own, it never touches licensing, sign-in or activation, and one click takes you back to plain Studio Pro. No Fender files are shipped: the skins are built on your PC from your own copy of the program.
 
-**Version 1.2.0 comes in 10 packages.** Tick the ones you want, with a few switches inside each. The installer adds what a package needs and shows you a summary before it changes anything.
+**Version 1.2.1 comes in 10 packages.** Tick the ones you want, with a few switches inside each. The installer adds what a package needs and shows you a summary before it changes anything.
+
+**New in 1.2.1:** a cleaner Sound search look: calmer colours, a solid player, clearer rows.
 
 **New in 1.2.0:** Sound search is much faster and now plays MIDI files on the instrument track you have selected (a one-time setup, written out in its README), and the Home page has a Quick start card: one click starts a new song from your own template.
 
