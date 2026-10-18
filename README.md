@@ -4,7 +4,7 @@
 
 Free community mods for **Fender Studio Pro 8** on Windows: skins, a calmer Start page, a redesigned Track List and plug-in browser, sample search, AI tools and more. Take only the parts you want, and go back to plain Studio Pro with one click.
 
-> Heads up: these mods are completely vibe-coded. I'm not a programmer. I built all of this with AI and I honestly don't know what I'm doing, so expect bugs and things that break. Back up your songs first, use it at your own risk, and if anything acts up, run the uninstaller to go back to stock.
+> Heads up: I'm a producer, not a programmer. I build these mods with AI coding tools and test each release on my own setup, on one Studio Pro build. They change how Studio Pro looks and works, so things can still break, especially after a Studio Pro update. Back up your songs first, use it at your own risk, and if anything acts up, run the uninstaller to go back to stock.
 
 - Tested on **Studio Pro 8.1.2 (build 8.1.2.113407)**, Windows 10 and 11.
 - The mods **never touch licensing, sign-in, activation or subscriptions**.
