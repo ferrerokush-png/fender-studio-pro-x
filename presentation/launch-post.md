@@ -2,13 +2,13 @@
 
 > **Heads up:** I'm a producer, not a programmer. I build these mods with AI coding tools and test each release on my own setup, on one Studio Pro build. They change how Studio Pro looks and works, so things can still break, especially after a Studio Pro update. Back up your songs first, use it at your own risk, and if anything acts up, run the uninstaller to go back to stock.
 
-<!-- DRAFT. Nothing here is published. The user decides what is shared and where. Matches deck, version 1.4.0 (10 packages, 2026-10-17). -->
+<!-- DRAFT. Nothing here is published. The user decides what is shared and where. Matches deck, version 1.4.1 (10 packages, 2026-10-18). -->
 
 I have been shaping Studio Pro 8 into the DAW I always wanted to work in, and I am sharing the result for free. **Fender Studio Pro X** is a set of skins and mods that sit on top of **your own, licensed** Studio Pro 8 and give you your own version of it.
 
 It is free, it installs on the copy you already own, it never touches licensing, sign-in or activation, and one click takes you back to plain Studio Pro. No Fender files are shipped: the skins are built on your PC from your own copy of the program.
 
-**Version 1.4.0 comes in 10 packages.** Tick the ones you want, with a few switches inside each. The installer adds what a package needs and shows you a summary before it changes anything.
+**Version 1.4.1 comes in 10 packages.** Tick the ones you want, with a few switches inside each. The installer adds what a package needs and shows you a summary before it changes anything.
 
 **New in 1.4.0:** the YouTube panel works again (YouTube had started refusing most preview links; the panel now tries other player types), has a volume slider for previews, and has optional account tabs for your own Home, Subs, Liked, Later and History lists. Your sign-in stays on your PC, stored encrypted, and is never part of the pack; YouTube can limit accounts that tools use heavily, so use it lightly.
 

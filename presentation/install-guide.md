@@ -2,9 +2,9 @@
 
 > **Heads up:** I'm a producer, not a programmer. I build these mods with AI coding tools and test each release on my own setup, on one Studio Pro build. They change how Studio Pro looks and works, so things can still break, especially after a Studio Pro update. Back up your songs first, use it at your own risk, and if anything acts up, run the uninstaller to go back to stock.
 
-<!-- DRAFT, version 1.4.0 (10 packages, 2026-10-17). -->
+<!-- DRAFT, version 1.4.1 (10 packages, 2026-10-18). -->
 
-Version 1.4.0 comes in **10 packages**. Take only the ones you want; the installer adds anything a package needs.
+Version 1.4.1 comes in **10 packages**. Take only the ones you want; the installer adds anything a package needs.
 
 ## What you need
 

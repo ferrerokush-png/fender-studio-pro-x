@@ -2,9 +2,9 @@
 
 > **Heads up:** I'm a producer, not a programmer. I build these mods with AI coding tools and test each release on my own setup, on one Studio Pro build. They change how Studio Pro looks and works, so things can still break, especially after a Studio Pro update. Back up your songs first, use it at your own risk, and if anything acts up, run the uninstaller to go back to stock.
 
-<!-- DRAFT. Local files only; nothing is published. The user decides what is shared, where and when. Version 1.4.0 (10 packages). -->
+<!-- DRAFT. Local files only; nothing is published. The user decides what is shared, where and when. Version 1.4.1 (10 packages). -->
 
-**Fender Studio Pro X** (version 1.4.0) is a free community expansion that gives you your own version of Fender Studio Pro 8. It comes in **10 packages**, each with a few switches inside: Skins (Liquid Glass and Graphite), Home page, Name and icon, Track List, Plug-in browser, Sound search, YouTube panel, Look extras, Pitch curves and AI tools (chat assistant and bridge, AI Lab, better stems). It installs on your own licensed copy, never touches licensing, ships no Fender files, and uninstalls in one click.
+**Fender Studio Pro X** (version 1.4.1) is a free community expansion that gives you your own version of Fender Studio Pro 8. It comes in **10 packages**, each with a few switches inside: Skins (Liquid Glass and Graphite), Home page, Name and icon, Track List, Plug-in browser, Sound search, YouTube panel, Look extras, Pitch curves and AI tools (chat assistant and bridge, AI Lab, better stems). It installs on your own licensed copy, never touches licensing, ships no Fender files, and uninstalls in one click.
 
 ## What is in this folder
 
