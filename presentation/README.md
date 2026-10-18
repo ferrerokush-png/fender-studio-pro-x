@@ -51,6 +51,6 @@ The deck and the feature sheet are generated from editable source files (`deck.s
 
 ## Credits
 
-Made by Roche, with thanks to the Studio One team at Fender. Open models and tools: Mel-Band RoFormer (Kim), HTDemucs (Meta), All-In-One, BTC chords, Whisper, Applio, VCTK starter voices (CC BY 4.0), ACE-Step 1.5, yt-dlp, ffmpeg, SQLite, Microsoft WebView2. Fonts: Inter and JetBrains Mono (SIL Open Font License). Our code: MIT.
+Made with thanks to the Studio One team at Fender. Open models and tools: Mel-Band RoFormer (Kim), HTDemucs (Meta), All-In-One, BTC chords, Whisper, Applio, VCTK starter voices (CC BY 4.0), ACE-Step 1.5, yt-dlp, ffmpeg, SQLite, Microsoft WebView2. Fonts: Inter and JetBrains Mono (SIL Open Font License). Our code: MIT.
 
 *Free and not for sale. Studio One and Studio Pro are trademarks of their owners.*

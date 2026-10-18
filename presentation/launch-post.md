@@ -71,4 +71,4 @@ Underneath it all sits **Core**, always installed: the mod loader and a crash gu
 Install steps: see the [install guide](install-guide.md). Questions, bugs and your own themes: see [community](community.md).
 Download (free): **https://github.com/ferrerokush-png/fender-studio-pro-x** (Releases has the latest zip). Take the tour: https://ferrerokush-png.github.io/fender-studio-pro-x/
 
-*Made by Roche. Free and not for sale. Studio One and Studio Pro are trademarks of their owners.*
+*A free fan project, not for sale. Studio One and Studio Pro are trademarks of their owners.*
