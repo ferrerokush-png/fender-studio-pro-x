@@ -1,34 +1,36 @@
 # Fender Studio Pro X: presentation pack
 
-> **Heads up:** I'm a producer, not a programmer. I build these mods with AI coding tools and test each release on my own setup, on one Studio Pro build. They change how Studio Pro looks and works, so things can still break, especially after a Studio Pro update. Back up your songs first, use it at your own risk, and if anything acts up, run the uninstaller to go back to stock.
+> **Heads up: this is vibe-coded, so expect bugs.** I'm a producer, not a programmer. I build these mods with AI coding tools and test each release on my own setup, on one Studio Pro build. They change how Studio Pro looks and works, so things can still break, especially after a Studio Pro update. Back up your songs first, use it at your own risk, and if anything acts up, run the uninstaller to go back to stock.
 
-<!-- DRAFT. Local files only; nothing is published. The user decides what is shared, where and when. Version 1.4.1 (10 packages). -->
+**Fender Studio Pro X** (version 2.0.0, for Fender Studio Pro 8.2, build 8.2.0.114903) is a free fan project that gives you your own version of Studio Pro 8. It comes in **12 packages**, plus an always-on Core. The big new parts: the **Appearance window** with ready-made themes (Liquid Glass in seven accent colours, and Original), a **Chords panel** in the piano roll, **Pitch curves** as a full Expression mode, a smarter **Sound search**, and a **chat assistant** that uses your own Claude Code subscription (install Claude Code and sign in yourself; no keys are stored or shipped, and it uses your own Claude plan limits). The Chords panel needs the bridge part of the AI tools package, which the installer adds for you; the chat itself stays off unless you use it.
 
-**Fender Studio Pro X** (version 1.4.1) is a free community expansion that gives you your own version of Fender Studio Pro 8. It comes in **10 packages**, each with a few switches inside: Skins (Liquid Glass and Graphite), Home page, Name and icon, Track List, Plug-in browser, Sound search, YouTube panel, Look extras, Pitch curves and AI tools (chat assistant and bridge, AI Lab, better stems). It installs on your own licensed copy, never touches licensing, ships no Fender files, and uninstalls in one click.
+It installs on your own licensed copy, never touches licensing, ships no Fender sign-in, licence or program code, and uninstalls in one click.
+
+Unofficial fan project. Not made or supported by Fender or PreSonus, and not affiliated with them. Studio One and Studio Pro are trademarks of their owners.
 
 ## What is in this folder
 
 | File | What it is |
 |---|---|
-| `Fender Studio Pro X - Presentation.html` | The deck, one self-contained file. Open in Edge or Chrome; arrow keys or click to move, F for full screen. |
-| `Fender Studio Pro X - Presentation.pdf` | The same 17 slides as a PDF (1920 x 1080 pages). |
-| `Fender Studio Pro X - Feature Sheet.pdf` | One A4 page: the 10 packages, install steps, the promise. |
+| `Fender Studio Pro X - Presentation.html` | The tour, one self-contained file (19 slides). Open in Edge or Chrome; arrow keys or click to move, F for full screen. |
+| `Fender Studio Pro X - Presentation.pdf` | The same 19 slides as a PDF (1920 x 1080 pages). |
+| `Fender Studio Pro X - Feature Sheet.pdf` | One A4 page: the 12 packages, install steps, back to stock. |
+| `feature-sheet.html` | The feature sheet as a web page. |
 | `launch-post.md` | The announcement text. |
-| `install-guide.md` | Install, the 10 packages, back to stock, troubleshooting. |
+| `install-guide.md` | Install, the 12 packages, back to stock, troubleshooting. |
 | `community.md` | Where people talk, house rules, how to report a bug. |
-| `demo-shotlist.md` | Shot list for a 2:30 demo video, matched to the deck slides. |
 
-## The deck, slide by slide
+## The tour, slide by slide
 
-1. Cover  2. What it is (with the heads-up)  3. Before and after  4. Liquid Glass  5. Skins page and making your own  6. Home page  7. Track List and Plug-in browser  8. Sound search and YouTube panel  9. AI Lab  10. Assistant  11. The small things  12. New in 1.1.0  13. The 10 packages at a glance  14. Install  15. Back to stock  16. Our promise  17. Thanks and credits
+1. Cover  2. What it is (with the heads-up)  3. What is new in 2.0.0  4. The Appearance window  5. Skin options (faders, M/S/R, meters)  6. Transport bar and meters  7. Home page  8. Track List, Plug-in browser, Sound search, YouTube panel  9. Chords panel  10. Swap a chord, or build from nothing  11. Pitch curves (Expression mode)  12. Find sounds by how they sound  13. Chat assistant  14. Small extras  15. The 12 packages at a glance  16. Install in three steps  17. Back to stock  18. Respect for the program  19. Thanks and credits
 
-Each slide names its package in the bottom corner. Every picture is a real screenshot of the running program (no mock-ups), taken before the 1.1.0 polish on slide 12 (no film grain, one light or Cool zones, stock-shaped track headers, dimmed bypassed plug-ins), so a few details look slightly different. The 1.4.0 changes (YouTube previews working again, a volume slider and optional YouTube account tabs), the 1.3.0 change (Play with song: Sound search previews start and stop with the song and stay on the beat), the 1.2.1 change (a cleaner Sound search look) and the 1.2.0 changes (a faster Sound search that plays MIDI files, and the Home page Quick start card) are written up on slides 8, 12 and 13 and on the feature sheet; their pictures are not new. Personal branding and anything not in the public pack are cropped out.
+Pictures use a demo song and demo sample folders. Personal branding and anything not in the public pack are left out.
 
-## The 10 packages
+## The 12 packages
 
 | # | Package | Ticked at first |
 |---|---|---|
-| 01 | Skins | yes |
+| 01 | Skins (Appearance window and themes) | yes |
 | 02 | Home page | yes |
 | 03 | Name and icon | yes |
 | 04 | Track List | yes |
@@ -37,20 +39,18 @@ Each slide names its package in the bottom corner. Every picture is a real scree
 | 07 | YouTube panel | no |
 | 08 | Look extras | yes |
 | 09 | Pitch curves | yes |
-| 10 | AI tools | no |
+| 10 | AI tools (chat assistant and bridge, better stems) | no |
+| 11 | Chords panel | yes |
+| 12 | Small extras | yes |
 
-Core (the mod loader and the web-panel crash guard) is always installed. Home page, Track List, Plug-in browser, Sound search and YouTube panel bring Skins with them. See `install-guide.md` for the switches inside each package.
+Core (the mod loader and the web-panel crash guard) is always installed. The Chords panel brings Pitch curves, Sound search and the bridge part of AI tools with it; the installer adds them and tells you. See `install-guide.md` for the switches inside each package.
 
 ## Build your own
 
-Want to build your own mods? Give the files in **For your AI agent** to Claude or another AI agent.
-
-## Editing
-
-The deck and the feature sheet are generated from editable source files (`deck.src.html`, `feature-sheet.src.html`) by a small build script that inlines fonts and pictures and prints both PDFs with Edge. This folder holds the finished files; the sources stay with the maintainer.
+Want to build your own mods? Give the files in **For your AI agent** to Claude or another AI agent. Work in a copy of Studio Pro, never your only install.
 
 ## Credits
 
-Made with thanks to the Studio One team at Fender. Open models and tools: Mel-Band RoFormer (Kim), HTDemucs (Meta), All-In-One, BTC chords, Whisper, Applio, VCTK starter voices (CC BY 4.0), ACE-Step 1.5, yt-dlp, ffmpeg, SQLite, Microsoft WebView2. Fonts: Inter and JetBrains Mono (SIL Open Font License). Our code: MIT.
+Made with thanks to the Studio One team at Fender. Open work we stand on: Mel-Band RoFormer (Kim) and HTDemucs (Meta) for the optional better stems; the CLAP sound model (Apache 2.0), ONNX Runtime and DirectML for Sound search; the Chordonomicon dataset (CC BY-NC 4.0, free use only) for chord statistics; yt-dlp, ffmpeg, SQLite and Microsoft WebView2. Fonts: Inter, JetBrains Mono, IBM Plex and Geist (SIL Open Font License). Our code: MIT. The full list is in `THIRD-PARTY-NOTICES` file inside the download.
 
-*Free and not for sale. Studio One and Studio Pro are trademarks of their owners.*
+*A free fan project, not for sale. Studio One and Studio Pro are trademarks of their owners.*

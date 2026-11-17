@@ -15,7 +15,7 @@ body:
     id: studio-pro-build
     attributes:
       label: Studio Pro build
-      description: Help > About in Studio Pro. The tested build is 8.1.2.113407.
+      description: Help > About in Studio Pro. The tested build is 8.2.0.114903.
     validations:
       required: false
   - type: textarea

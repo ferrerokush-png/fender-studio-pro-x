@@ -16,7 +16,7 @@ body:
     id: tested-on
     attributes:
       label: Studio Pro build you tested on
-      placeholder: "8.1.2.113407"
+      placeholder: "8.2.0.114903"
     validations:
       required: false
   - type: textarea

@@ -1,74 +1,75 @@
-# Fender Studio Pro X: a free community expansion for Studio Pro 8
+# Fender Studio Pro X 2.0.0: free fan mods for Studio Pro 8.2
 
-> **Heads up:** I'm a producer, not a programmer. I build these mods with AI coding tools and test each release on my own setup, on one Studio Pro build. They change how Studio Pro looks and works, so things can still break, especially after a Studio Pro update. Back up your songs first, use it at your own risk, and if anything acts up, run the uninstaller to go back to stock.
+> **Heads up: this is vibe-coded, so expect bugs.** I'm a producer, not a programmer. I build these mods with AI coding tools and test each release on my own setup, on one Studio Pro build (8.2.0.114903). They change how Studio Pro looks and works, so things can still break, especially after a Studio Pro update. Back up your songs first, use it at your own risk, and if anything acts up, run the uninstaller to go back to stock.
 
-<!-- DRAFT. Nothing here is published. The user decides what is shared and where. Matches deck, version 1.4.1 (10 packages, 2026-10-18). -->
+I have been shaping Studio Pro 8 into the DAW I always wanted to work in, and I am sharing the result for free. **Fender Studio Pro X** is a set of mods and themes that sit on top of **your own, licensed** Studio Pro 8 and give you your own version of it.
 
-I have been shaping Studio Pro 8 into the DAW I always wanted to work in, and I am sharing the result for free. **Fender Studio Pro X** is a set of skins and mods that sit on top of **your own, licensed** Studio Pro 8 and give you your own version of it.
+It is a free fan project: no price, no ads, no tracking. It installs on the copy you already own, it never touches licensing, sign-in or activation, and one click takes you back to plain Studio Pro. No sign-in, licence or program code of Fender's is shipped. It is unofficial and not affiliated with Fender or PreSonus.
 
-It is free, it installs on the copy you already own, it never touches licensing, sign-in or activation, and one click takes you back to plain Studio Pro. No Fender files are shipped: the skins are built on your PC from your own copy of the program.
+**Version 2.0.0 is made for Studio Pro 8.2 (build 8.2.0.114903) on Windows 10 or 11, and comes in 12 packages.** Tick the ones you want, with a few switches inside each. The installer adds what a package needs and shows you a summary before it changes anything. Still on Studio Pro 8.1.2? Keep using 1.4.1.
 
-**Version 1.4.1 comes in 10 packages.** Tick the ones you want, with a few switches inside each. The installer adds what a package needs and shows you a summary before it changes anything.
+## New in 2.0.0
 
-**New in 1.4.0:** the YouTube panel works again (YouTube had started refusing most preview links; the panel now tries other player types), has a volume slider for previews, and has optional account tabs for your own Home, Subs, Liked, Later and History lists. Your sign-in stays on your PC, stored encrypted, and is never part of the pack; YouTube can limit accounts that tools use heavily, so use it lightly.
+- **Appearance window.** Pick a ready-made theme (Liquid Glass in seven accent colours, or Original), press Apply, and your song is saved and reopens with the new look. Themes come ready-made, so nothing is built on your PC any more.
+- **Skin options.** Choose the track volume fader, mixer faders, meters (including a spectrum look), the M/S/R buttons, track header text and the transport bar (Console, Island or Classic).
+- **Chords panel** beside the piano roll: see and swap the chords of what you play, ideas that fit your key, build into empty bars, ghost notes before you commit, and a play style (your own timing, strum or arpeggio). It needs the bridge part of the AI tools package, which the installer adds for you.
+- **Pitch curves** is now a full Expression mode: draw, edit and shape a pitch line for each note, one Undo per gesture.
+- **Sound search** also finds sounds by how they sound (to search by how sounds sound, get the small sound model once: download `FSPX-sound-model.zip`, about 190 MB, from the release page, unzip it anywhere and double click `Install-Sound-Model.bat`; everything else in Sound search works without it), plus tags, saved searches, watched folders and paste at the playhead.
+- **Chat assistant** (off at first): talk to your song using **your own Claude Code subscription**. Install Claude Code and sign in yourself; no keys are stored or shipped, and it uses your own Claude plan limits. It can read and change tracks, mixing, sends, plug-in settings, MIDI and automation. Other MCP programs can use the same bridge, which listens on your PC only.
+- **Small extras:** any rate in Hz for the arpeggiator, and a fix for some docked plug-in windows that showed up blank or too small.
 
-**New in 1.3.0:** Play with song. Loops and MIDI files you preview in Sound search start and stop with Studio Pro's transport and stay on the beat, previews start about 0.04 seconds after a click, and stretched loops you drag in land on the grid (one extra one-time setup for the tightest timing, in its README).
+![Fender Studio Pro X with the Liquid Glass theme](hero.jpg)
 
-**New in 1.2.1:** a cleaner Sound search look: calmer colours, a solid player, clearer rows.
+*Pictures use a demo song.*
 
-**New in 1.2.0:** Sound search is much faster and now plays MIDI files on the instrument track you have selected (a one-time setup, written out in its README), and the Home page has a Quick start card: one click starts a new song from your own template.
+## The 12 packages
 
-Huge thanks to the Studio One team at Fender. This only exists because the program underneath is so good to work in.
+**1. Skins (Appearance window).** Ready-made themes and the Appearance window, with options for faders, M/S/R, meters and the transport bar.
 
-![Fender Studio Pro X with the Liquid Glass skin](deck/assets/hero.jpg)
+**2. Home page.** A calm Start page: your sessions, a Quick start card (one click starts a song from your template), music news, your artist card and your audio device. *Brings Skins with it.*
 
-*Screenshots were taken before the final 1.1.0 polish, so a few details look slightly different.*
-
-## The 10 packages
-
-**1. Skins.** Liquid Glass and Graphite, built on your PC from your own Studio Pro. Liquid Glass is a dark, frosted look for the whole window with 8 accent colours and 4 presets (32 looks). One soft light in your accent colour comes from the top left, the Browser has its own glow from its bottom edge, and a Glass tint slider goes from no tint to strong glass. Prefer something cooler? The Lighting row offers Cool zones, a quiet cool light in each panel (the newest part, so the least tested). Smooth backgrounds, no film grain. The accent marks selection and sliders only; record, mute, solo and meters keep their usual colours. Track headers keep Studio Pro's own shapes, meter and colour effect, the transport stays clean whatever you show or hide, scrollbar handles stay visible at every zoom, and bypassed plug-ins are clearly dimmed in the mixer. A Skins page in Options lets you pick, with live colour changes. Want your own? One short text file: pick a base, list only what you want different, run one command. No coding. *Switches: Skins page, Live colours.*
-
-**2. Home page.** A calm Start page: your sessions, a Quick start card (one click starts a song from your template), music news, your artist card and your audio device. Rename sessions right there too. *Switches: Session library, News, Spotify panel (off at first). Brings Skins with it.*
-
-**3. Name and icon.** "Fender Studio Pro X" in the title bar and the X app icon. *Switch: Hide About and Check for Updates (off at first).*
+**3. Name and icon.** "Fender Studio Pro X" in the title bar and the X app icon.
 
 **4. Track List.** A redesigned Track List: eye buttons, search, filters, folders, colours and saved views. *Brings Skins with it.*
 
-**5. Plug-in browser.** Instruments and Effects as a modern panel: filters, favourites, your own folders, search and a type icon on every row. *Brings Skins with it.*
+**5. Plug-in browser.** Instruments and Effects as a modern panel: filters, favourites, your own folders and search. *Brings Skins with it.*
 
-**6. Sound search.** Find samples by name, type, key and tempo in the Files tab, preview in time with the song, drag it in. MIDI files play too, on the track you have selected. *Brings Skins with it.*
+**6. Sound search.** Find samples by name, type, key, tempo, tags and sound, preview in time with the song, drag it in. MIDI files play too, on the track you have selected. *Brings Skins with it.*
 
-**7. YouTube panel** (off at first). Search or paste a link in the Cloud tab, preview (with a volume slider), and bring the audio into the song's folder; optional account tabs show your own YouTube lists. Uses yt-dlp, ffmpeg and a JavaScript runtime such as deno, which you install yourself. Only use audio you have the right to use. *Brings Skins with it.*
+**7. YouTube panel** (off at first). Search or paste a link in the Cloud tab, preview, and bring the audio into the song's folder. Uses yt-dlp and ffmpeg, which you install yourself. Only use audio you have the right to use. *Brings Skins with it.*
 
-**8. Look extras.** Smooth motion (short fades, no bounce), glass pop-up menus, rounded ruler markers and loop. *Switches: Smooth motion, Glass pop-ups, Ruler markers and loop.*
+**8. Look extras.** Smooth motion, glass pop-up menus, rounded ruler markers and loop.
 
-**9. Pitch curves.** Draw and edit per-note pitch curves in the piano roll.
+**9. Pitch curves.** Expression mode: draw, edit and shape a pitch line for each note in the piano roll.
 
-**10. AI tools** (off at first). A chat assistant that can drive Studio Pro, the AI Lab tab, and optional better stems.
-- **Chat assistant & bridge.** Let the AI model of your choice (any MCP client, or the built-in chat panel with your own key) read the open song and make changes. It listens on your PC only, and every edit can be undone.
-- **AI Lab.** A Browser tab for Stems, Voice, Choir and Generate that runs on your own PC. Default models are MIT or Apache licensed. Nothing is uploaded unless you add a key for an online service yourself. Its "Add to song" button uses the chat assistant & bridge, so the two always come together.
-- **Better stems** (off at first). Studio Pro's own Audio > Separate Stems, same menu, dialog and undo, with open MIT-licensed models behind it. Large download, so it asks first.
+**10. AI tools** (off at first). The chat assistant and bridge (it needs your own Claude Code subscription, installed and signed in by you) and optional better stems. Better stems is a big download and the installer asks first. An AI Lab installed with 1.4.x is kept on upgrade; it is no longer part of the pack.
+
+**11. Chords panel.** The Chords column beside the piano roll. Brings Pitch curves, Sound search and the AI tools bridge along. Chord statistics come from the Chordonomicon dataset (CC BY-NC 4.0, free use only).
+
+**12. Small extras.** A free-Hz arpeggiator rate and a docked plug-in editor fix.
 
 Underneath it all sits **Core**, always installed: the mod loader and a crash guard for web panels.
 
 ## The promise
 
 - Licensing stays untouched. No changes to sign-in, activation, subscriptions or the store.
-- No Fender files are shipped. Skins are built on your PC from your own copy.
-- Where a package replaces a stock file (the Moises tab, the SoundCloud panel), the original is kept and Uninstall puts it back.
+- No sign-in, licence or program code of Fender's is shipped.
+- Where a package replaces a stock file, the original is kept and Uninstall puts it back.
 - Hold **Shift** while Studio Pro starts for the stock look. Run the top-level **Uninstall.bat** and Studio Pro is exactly stock again. Each package also has its own Uninstall.bat.
-- Our code is MIT licensed. Third-party models and tools keep their own licences.
+- Our code is MIT licensed. Third-party models, datasets and tools keep their own licences.
 
 ## Honest limits
 
-- Windows only. Tested on Studio Pro 8.1.2 (build 8.1.2.113407). On other builds, anything that needs an exact match switches itself off and says so in the log.
-- Skins need Python 3.11+ and ImageMagick 7; the installer checks and tells you what is missing.
-- Some parts of Studio Pro are drawn by the program itself and a skin cannot change them.
-- Early software. Back up your projects as usual.
+- Windows only. Made for one Studio Pro build, 8.2.0.114903. After a Studio Pro update, run Install.bat again and expect that some parts stay off until they are updated.
+- Vibe-coded and tested on one setup: expect bugs, and back up your songs first.
+- The chat spends your own Claude plan limits. The mixing tools need Python 3.12 or newer.
+- Some parts of Studio Pro are drawn by the program itself and a theme cannot change them.
 
 ## Get it
 
-Install steps: see the [install guide](install-guide.md). Questions, bugs and your own themes: see [community](community.md).
+Install steps: see the [install guide](install-guide.md). Questions and bugs: see [community](community.md).
 Download (free): **https://github.com/ferrerokush-png/fender-studio-pro-x** (Releases has the latest zip). Take the tour: https://ferrerokush-png.github.io/fender-studio-pro-x/
 
-*A free fan project, not for sale. Studio One and Studio Pro are trademarks of their owners.*
+Huge thanks to the Studio One team at Fender. This only exists because the program underneath is so good to work in.
+
+*A free fan project, not for sale. Not made or supported by Fender or PreSonus. Studio One and Studio Pro are trademarks of their owners.*

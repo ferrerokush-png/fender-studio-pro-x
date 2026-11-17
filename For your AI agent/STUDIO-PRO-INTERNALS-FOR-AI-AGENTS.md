@@ -1,5 +1,9 @@
 # Fender Studio Pro 8 internals, for AI agents
 
+> **Not yet remade for 2.0.0 / Studio Pro 8.2.** This reference was written for pack 1.4.1 on Studio Pro 8.1.2 (build 8.1.2.113407).
+> File formats, techniques and names still help, but every address and offset in it is for 8.1.2 only
+> and must be found again on 8.2 (build 8.2.0.114903) before you rely on it.
+
 A field guide for an AI coding agent that will build mods for Fender Studio Pro 8 (formerly PreSonus Studio One)
 on Windows, on top of the "Fender Studio Pro X" mod pack. It condenses several weeks of reverse engineering into
 facts you can act on: file formats, addresses, hooks that work, hooks that do not, and the traps that cost hours.
@@ -805,7 +809,7 @@ loads after theme.css (it would override the live accent). `skins\theme.css` res
 
 All mod pages share one WebView2 browser process. Any mod ini `debug_port>0` sets
 `WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS=--remote-debugging-port=<n>` for the whole process (the first one to set it
-wins), which makes **every** panel (including the chat panel's API-key sheet) scriptable by any local process over the
+wins), which makes **every** panel (including the chat panel) scriptable by any local process over the
 Chrome DevTools Protocol. Use a port only while testing; ship `debug_port=0`.
 
 ### 9.7 Drag and drop out of a page
